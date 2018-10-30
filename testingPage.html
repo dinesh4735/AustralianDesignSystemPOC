@@ -1,0 +1,253 @@
+<!doctype html>
+<html class="js">
+<head>
+<meta charset="utf-8">
+<title>testPage</title>
+<!--Main[stylesheet]-->
+<link type="text/css" href="css/normalize.css" rel="stylesheet">
+<link type="text/css" href="css/furnace.min.css" rel="stylesheet">
+<link type="text/css" href="css/main.css" rel="stylesheet">
+<script src="js/furnace.min.js"></script>
+</head>
+<body>
+<header class="au-grid au-header au-header--hero site-header" role="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="au-header__brand"> <img class="au-header__brand-image" alt="Insert alternate text here" src="http://placehold.it/256x80">
+          <div class="au-header__text">
+            <h1 class="au-header__heading">Australian Design System POC</h1>
+            <div class="au-header__subline"> Starter Page Template & Component List </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"><a href="https://www.acgov.org/">ACGOV.org</a></div>
+    </div>
+  </div>
+</header>
+<main class="au-grid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-xs-12 outerBox"> 
+        <!======Accordion Group=======>
+        <h2>Accordion Group</h2>
+        <div class="innerBox">
+          <ul class="au-accordion-group">
+            <li>
+              <section class="au-accordion"> <a href="#accordion-group-1" class="au-accordion__title js-au-accordion au-accordion--closed" aria-controls="accordion-group-1" aria-expanded="false" aria-selected="false" onclick="return AU.accordion.Toggle( this )">Accordion group 1</a>
+                <div class="au-accordion__body au-accordion--closed" id="accordion-group-1">
+                  <div class="au-accordion__body-wrapper"> Here <a href="#url">is</a> some accordion content </div>
+                </div>
+              </section>
+            </li>
+            <li>
+              <section class="au-accordion"> <a href="#accordion-group-2" class="au-accordion__title js-au-accordion au-accordion--closed" aria-controls="accordion-group-2" aria-expanded="false" aria-selected="false" onclick="return AU.accordion.Toggle( this )">Accordion group 2</a>
+                <div class="au-accordion__body au-accordion--closed" id="accordion-group-2">
+                  <div class="au-accordion__body-wrapper"> Here <a href="#url">is</a> some accordion content </div>
+                </div>
+              </section>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-xs-12 outerBox"> 
+        <!======Breadcrumbs Component=======>
+        <h2>Breadcrumbs Component</h2>
+        <div class="innerBox">
+          <nav class="au-breadcrumbs" aria-label="breadcrumb">
+            <ul class="au-link-list au-link-list--inline">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Parent</a></li>
+              <li>Current page</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-xs-12 outerBox"> 
+        <!======List Group=======>
+        <h2>List Group</h2>
+        <div class="innerBox">
+          <ul>
+            <li>List item</li>
+            <li>List item</li>
+          </ul>
+          <ol>
+            <li>List item</li>
+            <li>List item</li>
+          </ol>
+          <dl>
+            <dt>Definition title</dt>
+            <dd>Definition Definition</dd>
+            <dd>Definition Definition</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="col-md-6 col-xs-12 outerBox"> 
+        <!======Buttons Component=======>
+        <h2>Buttons</h2>
+        <div class="innerBox">
+          <div class="row">
+            <button class="au-btn"> Primary button </button>
+            <button class="au-btn au-btn--secondary"> Secondary button </button>
+          </div>
+          <div class="row">
+            <button class="au-btn au-btn--tertiary"> Tertiary button </button>
+            <button class="au-btn" disabled> Disabled button </button>
+          </div>
+          <div class="row">
+            <button class="au-btn au-btn--block"> Primary block button </button>
+            <a link="#" class="au-btn"> Primary link button </a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-xs-12 outerBox"> 
+        <!======Call to action=======>
+        <h2>Call to Action</h2>
+        <div class="innerBox"> <a class="au-cta-link" href="#">Sign up</a> </div>
+      </div>
+      <div class="col-md-6 col-xs-12 outerBox"> 
+        <!======Callout=======>
+        <h2>Callout</h2>
+        <div class="innerBox">
+          <p class="au-callout" aria-label="Callout description1"> A callout. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-xs-12 outerBox"> 
+        <!======Inpage Nav=======>
+        <h2>Inpage NAV</h2>
+        <div class="innerBox">
+          <nav class="au-inpage-nav-links" aria-label="in page navigation">
+            <h2 class="au-inpage-nav-links__heading">Contents</h2>
+            <ul class="au-link-list">
+              <li><a href="#section1">Section 1</a></li>
+              <li><a href="#section2">Section 2</a></li>
+            </ul>
+          </nav>
+          <h2 class="au-inpage-nav-section au-display-sm"> Section 1 page headline <a id="section1" class="au-inpage-nav-section-link" href="#section1">Link to section</a> </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <h2 class="au-inpage-nav-section au-display-sm"> Section 1 page headline <a id="section2" class="au-inpage-nav-section-link" href="#section1">Link to section</a> </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-xs-12 outerBox"> 
+        <!======Side Nav=======>
+        <h2>Side Nav</h2>
+        <div class="innerBox">
+          <aside class="au-side-nav au-accordion" aria-label="side navigation"> <a 
+    href="#nav-default" class="au-side-nav__toggle au-accordion__title au-accordion--closed" 
+    aria-controls="nav-default"
+    aria-expanded="false" 
+    aria-selected="false" 
+    onclick="return AU.accordion.Toggle( this )"
+  > In this section </a>
+            <div id="nav-default" class="au-side-nav__content au-accordion--closed au-accordion__body">
+              <h2 class="au-sidenav__title"> <a href="#">Lodging your tax return</a> </h2>
+              <ul class="au-link-list">
+                <li><a href="#">Do you need to lodge a tax return?</a></li>
+                <li><a href="#">Lodge online</a>
+                  <ul class="au-link-list">
+                    <li><a href="#">Pre-filling your online tax return</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">What's new for individuals</a></li>
+                <li><a href="#">Why you may receive a tax bill</a></li>
+                <li><a href="#">In detail</a>
+                  <ul class="au-link-list">
+                    <li><a href="#">Record keeping</a>
+                      <ul class="au-link-list">
+                        <li class="active"><a href="#">Keeping your tax records</a></li>
+                        <li><a href="#">Incorrect amounts</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Tax receipt</a></li>
+                    <li><a href="#">Pre-fill availability</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-xs-12 outerBox"> 
+        <!======Page Alerts=======>
+        <h2>Page Alerts</h2>
+        <div class="innerBox">
+          <div role="alert" class="au-body au-page-alerts au-page-alerts--info">
+            <h3>Important</h3>
+            <p>Alert Content</p>
+          </div>
+          <div role="alert" class="au-body au-page-alerts au-page-alerts--success">
+            <h3>Success</h3>
+            <p>Alert Content</p>
+          </div>
+          <div role="alert" class="au-body au-page-alerts au-page-alerts--error">
+            <h3>Error</h3>
+            <p>Alert Content</p>
+          </div>
+          <div role="alert" class="au-body au-page-alerts au-page-alerts--warning">
+            <h3>Warning</h3>
+            <p>Alert Content</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-xs-12 outerBox"> 
+        <!======Responsive Image=======>
+        <h2>Responsive Image</h2>
+        <div class="innerBox">
+		  <img class="au-responsive-media-img" src="img/itd-background.png" alt="Information Technology Department">        
+		  </div>
+		  
+		   <h2>Reponsive Video</h2>
+        <div class="innerBox">
+		 <div class="au-responsive-media-vid au-responsive-media-vid--16x9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/myc2P7extiM" frameborder="0" allow="autoplay; encrypted-media allowfullscreen"></iframe>
+</div>        
+		  </div>
+
+      </div>
+    </div>
+  </div>
+	<div class="container">
+    <div class="row">
+      <div class="col-md-6 col-xs-12 outerBox"> 
+        <!======Select Box=======>
+        <h2>Select Box</h2>
+        <div class="innerBox">
+			<label for="select1block">What option?</label>
+<select id="select1" class="au-select au-select--block">
+  <option value="">Please select</option>
+  <option value="1">Option 1</option>
+  <option value="2">Option 2</option>
+  <option value="3">Option 3</option>
+</select>
+        </div>
+      </div>
+      <div class="col-md-6 col-xs-12 outerBox"> 
+        <!======Text Inputs=======>
+        <h2>Text Inputs</h2>
+        <div class="innerBox">
+		  <label for="text-input-block">label text</label>
+<input class="au-text-input au-text-input--block" name="text-input-block" id="text-input-block" type="text" value="value">
+		  </div>
+
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>
